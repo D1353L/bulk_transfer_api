@@ -1,0 +1,30 @@
+require:
+  - rubocop-rails
+  - rubocop-rspec
+
+inherit_gem:
+  rswag-specs: .rubocop_rspec_alias_config.yml
+
+AllCops:
+  SuggestExtensions: false
+  NewCops: disable
+  TargetRubyVersion: 3.4.2
+
+Style/Documentation:
+  Enabled: false
+
+Metrics/MethodLength:
+  CountComments: false
+  Max: 25
+
+RSpec/MultipleExpectations:
+  Enabled: false
+
+RSpec/MultipleMemoizedHelpers:
+  Enabled: false
+
+RSpec/NestedGroups:
+  Max: 6
+
+RSpec/ExampleLength:
+  Max: 15

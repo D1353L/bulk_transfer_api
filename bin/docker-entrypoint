@@ -1,0 +1,12 @@
+#!/bin/bash -e
+
+export SECRET_KEY_BASE=${SECRET_KEY_BASE:-$(bundle exec rails secret)}
+
+if [ -z "${LD_PRELOAD+x}" ]; then
+    LD_PRELOAD=$(find /usr/lib -name libjemalloc.so.2 -print -quit)
+    export LD_PRELOAD
+fi
+
+bundle exec rails db:prepare
+
+exec "$@"
