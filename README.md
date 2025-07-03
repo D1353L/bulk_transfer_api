@@ -1,5 +1,7 @@
 ## Bulk Transfer API
 
+[![CI](https://github.com/D1353L/bulk_transfer_api/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/D1353L/bulk_transfer_api/actions/workflows/ci.yml)
+
 An example API for processing bank transfers in bulk.
 
 ### Key Features
