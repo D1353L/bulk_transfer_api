@@ -38,7 +38,7 @@ jobs:
       - name: Run rspec
         env:
           RAILS_ENV: test
-        run: rspec spec
+        run: bin/rails spec
   security:
     runs-on: ubuntu-latest
     steps:
