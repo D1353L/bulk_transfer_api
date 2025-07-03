@@ -77,7 +77,8 @@ class BulkTransferService
   def insert_transactions
     result = Transaction.insert_all!(transactions.map(&:attributes))
 
-    Rails.logger.info("#{result.rows.count} transactions for bank_account id=#{bank_account.id} inserted with ids #{result.rows.join(', ')}")
+    Rails.logger.info("#{result.rows.count} transactions for bank_account"\
+    "id=#{bank_account.id} inserted with ids #{result.rows.join(', ')}")
   end
   # rubocop:enable Rails/SkipsModelValidations
 end
