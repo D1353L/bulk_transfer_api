@@ -8,7 +8,7 @@ gem 'bootsnap', require: false
 gem 'dry-schema', '~> 1.14'
 gem 'puma', '~> 6.0'
 gem 'rswag', '~> 2.16'
-gem 'sqlite3', '~> 2.1'
+gem 'sqlite3', '~> 2.7'
 
 group :development, :test do
   gem 'brakeman', '~> 7.0', require: false
