@@ -11,12 +11,13 @@ gem 'rswag', '~> 2.16'
 gem 'sqlite3', '~> 2.1'
 
 group :development, :test do
-  gem 'brakeman', require: false
-  gem 'bundler-audit'
-  gem 'debug', platforms: %i[mri windows], require: 'debug/prelude'
+  gem 'brakeman', '~> 7.0', require: false
+  gem 'bundler-audit', '~> 0.9'
+  gem 'debug', '~> 1.11', platforms: %i[mri windows], require: 'debug/prelude'
   gem 'factory_bot_rails', '~> 6.5'
   gem 'rspec-rails', '~> 8.0'
-  gem 'rubocop-rails', require: false
-  gem 'rubocop-rspec', require: false
+  gem 'rubocop-rails', '~> 2.32', require: false
+  gem 'rubocop-rspec', '~> 3.6', require: false
   gem 'shoulda-matchers', '~> 6.5'
+  gem 'simplecov', '~> 0.22', require: false
 end
