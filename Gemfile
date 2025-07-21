@@ -11,7 +11,7 @@ gem 'rswag', '~> 2.16'
 gem 'sqlite3', '~> 2.7'
 
 group :development, :test do
-  gem 'brakeman', '~> 7.0', require: false
+  gem 'brakeman', '~> 7.1', require: false
   gem 'bundler-audit', '~> 0.9'
   gem 'debug', '~> 1.11', platforms: %i[mri windows], require: 'debug/prelude'
   gem 'factory_bot_rails', '~> 6.5'
