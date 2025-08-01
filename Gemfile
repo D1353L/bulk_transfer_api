@@ -6,7 +6,7 @@ gem 'rails', '~> 8.0.2'
 
 gem 'bootsnap', require: false
 gem 'dry-schema', '~> 1.14'
-gem 'puma', '~> 6.0'
+gem 'puma', '~> 6.6'
 gem 'rswag', '~> 2.16'
 gem 'sqlite3', '~> 2.7'
 
