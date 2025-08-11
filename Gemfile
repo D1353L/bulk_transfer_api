@@ -16,7 +16,7 @@ group :development, :test do
   gem 'debug', '~> 1.11', platforms: %i[mri windows], require: 'debug/prelude'
   gem 'factory_bot_rails', '~> 6.5'
   gem 'rspec-rails', '~> 8.0'
-  gem 'rubocop-rails', '~> 2.32', require: false
+  gem 'rubocop-rails', '~> 2.33', require: false
   gem 'rubocop-rspec', '~> 3.6', require: false
   gem 'shoulda-matchers', '~> 6.5'
   gem 'simplecov', '~> 0.22', require: false
