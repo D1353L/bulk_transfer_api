@@ -18,6 +18,6 @@ group :development, :test do
   gem 'rspec-rails', '~> 8.0'
   gem 'rubocop-rails', '~> 2.32', require: false
   gem 'rubocop-rspec', '~> 3.6', require: false
-  gem 'shoulda-matchers', '~> 6.5'
+  gem 'shoulda-matchers', '~> 7.0'
   gem 'simplecov', '~> 0.22', require: false
 end
